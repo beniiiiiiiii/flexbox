@@ -1,0 +1,86 @@
+/*feladat 1*/
+
+.container{
+    height: 300px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+}
+
+.container > #zold {
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    order: 1;
+    opacity: 0;
+}
+.container > #sarga {
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    order: 3;
+}
+.container > #lila {
+    background-color: purple;
+    height: 100px;
+    width: 100px;
+    order: 2;
+}
+
+/*feladat 2*/
+
+.container2 {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    background-color: yellow;
+    align-items: center;
+    
+}
+
+li {
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    list-style-type: none;
+    margin-right: 2px;
+}
+
+/* feladat 3*/
+.container3 {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    background-color: yellow;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li {
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    list-style-type: none;
+}
+
+/*feladat 4*/
+
+.container4 {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    background-color: yellow;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
+}
+
+li {
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    list-style-type: none;
+    margin-right: 2px;
+}
